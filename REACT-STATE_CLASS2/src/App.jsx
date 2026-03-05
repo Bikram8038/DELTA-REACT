@@ -5,6 +5,7 @@ import Ludo from './Ludo.jsx'
 import Ticket from './Ticket.jsx'
 import Todo from './TodoList.jsx'
 import {sum} from './Lottery.js'
+import Form from './Form.jsx'
 
 function App() {
 
@@ -14,11 +15,13 @@ function App() {
   }
   return (
     <>
+    <Form/>
       {/* <Ludo/> */}
       {/* <Todo></Todo> */}
-      <Lottery n={3} winningCondition={winningCondition}/>
+      {/* <Lottery n={3} winningCondition={winningCondition}/> */}
       {/* <Ticket ticket={[6,5,4]}/>
       <Ticket ticket={[4,9,5,1]}/> */}
+      
 
 
     </>
