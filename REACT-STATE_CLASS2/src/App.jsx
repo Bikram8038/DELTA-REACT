@@ -10,20 +10,11 @@ import Form from './Form.jsx'
 function App() {
 
   let winningCondition=(ticket)=>{
-      // return ticket.every((num)=>num===ticket[0]);
-      return ticket[0]==0;
+      return ticket[1]==0;
   }
   return (
     <>
     <Form/>
-      {/* <Ludo/> */}
-      {/* <Todo></Todo> */}
-      {/* <Lottery n={3} winningCondition={winningCondition}/> */}
-      {/* <Ticket ticket={[6,5,4]}/>
-      <Ticket ticket={[4,9,5,1]}/> */}
-      
-
-
     </>
   )
 }
